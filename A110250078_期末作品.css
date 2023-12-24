@@ -70,7 +70,7 @@ nav li{height: 50px;}
 .menber_box_button a{text-decoration: none; color: aliceblue;background-color: rgba(137, 197, 182, 0.512);border-radius: 10px;
     margin: 5px;padding: 5px;        
 } 
-.menber_box_img{width: calc(80%*0.4);object-fit: contain;}
+.menber_box_img{width: calc(80%*0.4);object-fit: contain;display: flex;align-items: center;justify-content: center;}
 .menber_box_img img{width: auto;display: none;max-height: 400px;max-width: 100%;}
 .menber_box_img img:target{display: block;}
 
@@ -82,5 +82,54 @@ nav li{height: 50px;}
 .menber_box_type img{width: auto;}
 .menber_box_button{width: 100%;border-right: none;}
 .menber_box_img{width: 100%;display: flex;justify-content: center;}
+.footer_ani img{opacity: 0;}
+.video_music_table video,.video_music_table audio{max-width: 186px; max-height: 400px;} 
 
+}
+
+
+.multimedia{display: flex;align-items: center;}
+.slider_div{width: 50%;}
+.slider{height: 350px;width: 100%;border-radius: 10px;}
+.slider img{
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* 淡入淡出效果的過渡時間 */
+    object-fit: cover;
+    width: 100%;height: 100%;
+    border-radius: 10px;
+}
+.slider img:first-child {
+    display: block;
+    opacity: 1;
+}
+
+
+.video_music{width: 80%;}
+.intruation_table {left: 40%;width: 90%;text-align: center;margin: auto;border-width: 2px ;margin: 20px;
+    border-style: inset;border-collapse: collapse;}
+    .intruation_table td,th{border-bottom: 2px solid #acacac; padding:20px}
+    .introtb{ width: calc(100%-20px);margin-top: 20px; box-sizing: border-box;}
+    .intruation_table caption{font-size: 40px;font-weight: bold;}
+
+    .video_music_table{width: 100%;margin: 20px; width: 90%;}
+    .video_music_table {font-size: 20px ;font-weight: bold; height: auto; border: 2px solid; border-collapse: collapse;}
+    .video_music_table th{width: auto;height: auto; border: 2px solid;}
+    .video_music_table caption{overflow: hidden;}
+    .video_music_table caption>p{font-size: 40px; animation: mv_caption 8s linear infinite alternate; }
+    .video_music_table video,.video_music_table audio{width: 150px; max-height: 400px;} 
+
+
+
+
+
+  footer{background: linear-gradient(135deg, #b490ca, #5ee7df); width: 100%; height: 10%; display: flex;
+  align-items: center; justify-content: center;margin: 0;}
+  footer img {max-width: 60px; height: auto; padding-right: 10px;}
+  .footer_ani{animation: footer_ani 5s linear infinite alternate;}
+  .footer_ani:hover {animation-play-state:paused ;}
+  .footer_ani img:hover{transform: scale(1.5) translateY(-10px); }
+@keyframes footer_ani{
+from{transform: translateX(50%);}
+to{transform: translateX(-50%);}
 }
