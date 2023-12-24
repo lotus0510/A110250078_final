@@ -60,14 +60,14 @@ nav li{height: 50px;}
 .intro_contain_2{display: flex;flex-wrap: wrap;justify-content: center;}
 .intro_contain_2 img{width: calc((100% / 3) - 3%);}
 
-.menber_box{display: flex;width: 80%;margin-left: 10%;padding: 0;}
+.menber_box{display: flex;width: 80%;margin-left: 10%;padding: 5px;}
 .menber_box_type{width: calc(80% * 0.2);display: flex;align-items: center;}
 .menber_box_type ul {display: flex;flex-direction: column; }
 .menber_box_type li{background-color: rgb(207, 255, 255);}
 .menber_box_type img{height: 80px;width: 100%;}
 .menber_box_button{display: flex;width: calc(80%* 0.6);border-right: 1px solid black; }
 .menber_box_button #jp{display: flex;flex-wrap: wrap;}
-.menber_box_button a{text-decoration: none; color: aliceblue;background-color: rgba(191, 199, 197, 0.512);border-radius: 10px;
+.menber_box_button a{text-decoration: none; color: aliceblue;background-color: rgba(137, 197, 182, 0.512);border-radius: 10px;
     margin: 5px;padding: 5px;        
 } 
 
