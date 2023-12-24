@@ -67,7 +67,7 @@ nav li{height: 50px;}
 .menber_box_type img{height: 80px;width: 100%;}
 .menber_box_button{display: flex;width: calc(80%* 0.6);border-right: 1px solid black; }
 .menber_box_button #jp{display: flex;flex-wrap: wrap;}
-.menber_box_button a{text-decoration: none; color: aliceblue;background-color: aquamarine;border-radius: 10px;
+.menber_box_button a{text-decoration: none; color: aliceblue;background-color: rgba(191, 199, 197, 0.512);border-radius: 10px;
     margin: 5px;padding: 5px;        
 } 
 
