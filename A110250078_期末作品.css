@@ -70,7 +70,17 @@ nav li{height: 50px;}
 .menber_box_button a{text-decoration: none; color: aliceblue;background-color: rgba(137, 197, 182, 0.512);border-radius: 10px;
     margin: 5px;padding: 5px;        
 } 
-
 .menber_box_img{width: calc(80%*0.4);object-fit: contain;}
 .menber_box_img img{width: auto;display: none;max-height: 400px;max-width: 100%;}
 .menber_box_img img:target{display: block;}
+
+@media screen and (max-width:600px){
+.menber_box{display: block;}
+.menber_box_type{width: 90%;margin: auto;}
+.menber_box ul{width: 100%;}
+.menber_box li{display: flex; font-size: 40px;color: cyan;-webkit-text-stroke: 1px black;}
+.menber_box_type img{width: auto;}
+.menber_box_button{width: 100%;border-right: none;}
+.menber_box_img{width: 100%;display: flex;justify-content: center;}
+
+}
